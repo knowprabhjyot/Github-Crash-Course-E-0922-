@@ -1,0 +1,16 @@
+.block {
+    transition-property: width;
+    transition-delay: 2s;
+
+    transition-timing-function: linear;
+
+    transition-duration: 3s;
+
+    width: 300px;
+    height: 200px;
+}
+
+
+.block:hover {
+    width: 500px;
+}
